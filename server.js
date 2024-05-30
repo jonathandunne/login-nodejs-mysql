@@ -31,7 +31,7 @@ db.connect( (error) => {
     else {
         console.log("mySQL Connected")
     }
-})
+});
 
 app.get("/", (req, res) => {
     res.render("index");
